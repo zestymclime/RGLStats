@@ -197,6 +197,7 @@ flattenedteamnumbers=np.repeat([np.arange(n_teams)],len(fit_scores['team_scores'
 sns.boxplot(x=flattenedteamnumbers,y=flattenedscores,fliersize=0)
 plt.xticks(np.arange(n_teams),rounds_data.blu_team.unique()[scoreargs],rotation=90);
 plt.ylabel('Team Score');
+plt.tight_layout();
 plt.show();
 
 print('Do Match Prediction? Type y for yes, anything else to quit')
