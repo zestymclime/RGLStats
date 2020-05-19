@@ -10,7 +10,7 @@ def predict_rounds(mapname,scores,team_a,team_b,rounds_data):
     Big Uncommented function for plotting match predictions.
     This doesn't work very well, maybe I'll clean this up in future.
     """
-    teamslist=rounds_data.blu_team.unique()
+    teamslist=np.union1d(rounds_data.blu_team.unique(),rounds_data.red_team.unique())
     n_teams=len(teamslist)
     team_a_score=scores[:,teamslist==team_a]
     team_b_score=scores[:,teamslist==team_b]
@@ -73,7 +73,7 @@ def predict_rounds_koth(scores,team_a,team_b,rounds_data):
     Big Uncommented function for plotting match predictions for koth maps.
     This doesn't work very well, maybe I'll clean this up in future.
     """
-    teamslist=rounds_data.blu_team.unique()
+    teamslist=np.union1d(rounds_data.blu_team.unique(),rounds_data.red_team.unique())
     team_a_score=scores[:,teamslist==team_a]
     team_b_score=scores[:,teamslist==team_b]
     winroundprobs=1/(1+np.exp(team_b_score-team_a_score))
@@ -126,7 +126,8 @@ filename=input()
 rounds_data=pd.read_csv(filename+'.csv')
 
 #Make a dictionary of the team names and assign a numeric value to each team
-numbers=dict(np.flip(np.array(list(enumerate(rounds_data.blu_team.unique()))),axis=1))
+teams=np.union1d(rounds_data.blu_team.unique(),rounds_data.red_team.unique())
+numbers=dict(np.flip(np.array(list(enumerate(teams))),axis=1))
 
 #Get the numeric value associated with each team for each round
 blunumbers=[]
@@ -195,7 +196,7 @@ flattenedteamnumbers=np.repeat([np.arange(n_teams)],len(fit_scores['team_scores'
 
 #Plot Image
 sns.boxplot(x=flattenedteamnumbers,y=flattenedscores,fliersize=0)
-plt.xticks(np.arange(n_teams),rounds_data.blu_team.unique()[scoreargs],rotation=90);
+plt.xticks(np.arange(n_teams),teams[scoreargs],rotation=90);
 plt.ylabel('Team Score');
 plt.tight_layout();
 plt.show();
