@@ -65,21 +65,21 @@ log_id,map,blu_team,red_team,blu_win,round_duration
 2523801,sunshine,Ascent,froyotech,1,460
 2523801,sunshine,Ascent,froyotech,0,338
 2523801,sunshine,Ascent,froyotech,0,82
-2524769,process,Ban Daffodil,slinBros,1,1380
-2524794,gullywash,Ban Daffodil,slinBros,1,188
-2524794,gullywash,Ban Daffodil,slinBros,1,141
-2524794,gullywash,Ban Daffodil,slinBros,0,236
-2524794,gullywash,Ban Daffodil,slinBros,0,279
-2524794,gullywash,Ban Daffodil,slinBros,1,345
-2524794,gullywash,Ban Daffodil,slinBros,0,175
-2524794,gullywash,Ban Daffodil,slinBros,0,98
-2524794,gullywash,Ban Daffodil,slinBros,0,61
-2524835,snakewater,slinBros,Ban Daffodil,1,141
-2524835,snakewater,slinBros,Ban Daffodil,1,307
-2524835,snakewater,slinBros,Ban Daffodil,0,516
-2524835,snakewater,slinBros,Ban Daffodil,1,218
-2524835,snakewater,slinBros,Ban Daffodil,1,345
-2524835,snakewater,slinBros,Ban Daffodil,0,71
+2524769,process,Ban Daffodil,dexter's lab,1,1380
+2524794,gullywash,Ban Daffodil,dexter's lab,1,188
+2524794,gullywash,Ban Daffodil,dexter's lab,1,141
+2524794,gullywash,Ban Daffodil,dexter's lab,0,236
+2524794,gullywash,Ban Daffodil,dexter's lab,0,279
+2524794,gullywash,Ban Daffodil,dexter's lab,1,345
+2524794,gullywash,Ban Daffodil,dexter's lab,0,175
+2524794,gullywash,Ban Daffodil,dexter's lab,0,98
+2524794,gullywash,Ban Daffodil,dexter's lab,0,61
+2524835,snakewater,dexter's lab,Ban Daffodil,1,141
+2524835,snakewater,dexter's lab,Ban Daffodil,1,307
+2524835,snakewater,dexter's lab,Ban Daffodil,0,516
+2524835,snakewater,dexter's lab,Ban Daffodil,1,218
+2524835,snakewater,dexter's lab,Ban Daffodil,1,345
+2524835,snakewater,dexter's lab,Ban Daffodil,0,71
 2530817,snakewater,Ascent,froyotech,0,293
 2530817,snakewater,Ascent,froyotech,0,137
 2530817,snakewater,Ascent,froyotech,0,304
@@ -129,28 +129,28 @@ log_id,map,blu_team,red_team,blu_win,round_duration
 2532282,snakewater,froyotech,Ascent,1,102
 2532282,snakewater,froyotech,Ascent,1,186
 2532282,snakewater,froyotech,Ascent,1,242
-2536089,process,The Microwave,slinBros,0,122
-2536089,process,The Microwave,slinBros,1,299
-2536089,process,The Microwave,slinBros,1,668
-2536089,process,The Microwave,slinBros,1,136
-2536089,process,The Microwave,slinBros,1,405
-2536131,gullywash,The Microwave,slinBros,1,93
-2536131,gullywash,The Microwave,slinBros,1,96
-2536131,gullywash,The Microwave,slinBros,1,433
-2536131,gullywash,The Microwave,slinBros,1,144
-2536131,gullywash,The Microwave,slinBros,1,103
-2536146,snakewater,slinBros,The Microwave,0,224
-2536146,snakewater,slinBros,The Microwave,0,102
-2536146,snakewater,slinBros,The Microwave,1,102
-2536146,snakewater,slinBros,The Microwave,0,305
-2536146,snakewater,slinBros,The Microwave,1,329
-2536146,snakewater,slinBros,The Microwave,0,666
-2536177,product,slinBros,The Microwave,0,390
-2536177,product,slinBros,The Microwave,1,414
-2536177,product,slinBros,The Microwave,1,228
-2536177,product,slinBros,The Microwave,0,372
-2536177,product,slinBros,The Microwave,1,351
-2536177,product,slinBros,The Microwave,1,315
+2536089,process,The Microwave,dexter's lab,0,122
+2536089,process,The Microwave,dexter's lab,1,299
+2536089,process,The Microwave,dexter's lab,1,668
+2536089,process,The Microwave,dexter's lab,1,136
+2536089,process,The Microwave,dexter's lab,1,405
+2536131,gullywash,The Microwave,dexter's lab,1,93
+2536131,gullywash,The Microwave,dexter's lab,1,96
+2536131,gullywash,The Microwave,dexter's lab,1,433
+2536131,gullywash,The Microwave,dexter's lab,1,144
+2536131,gullywash,The Microwave,dexter's lab,1,103
+2536146,snakewater,dexter's lab,The Microwave,0,224
+2536146,snakewater,dexter's lab,The Microwave,0,102
+2536146,snakewater,dexter's lab,The Microwave,1,102
+2536146,snakewater,dexter's lab,The Microwave,0,305
+2536146,snakewater,dexter's lab,The Microwave,1,329
+2536146,snakewater,dexter's lab,The Microwave,0,666
+2536177,product,dexter's lab,The Microwave,0,390
+2536177,product,dexter's lab,The Microwave,1,414
+2536177,product,dexter's lab,The Microwave,1,228
+2536177,product,dexter's lab,The Microwave,0,372
+2536177,product,dexter's lab,The Microwave,1,351
+2536177,product,dexter's lab,The Microwave,1,315
 2537195,villa,Ascent,froyotech,1,404
 2537195,villa,Ascent,froyotech,0,506
 2537195,villa,Ascent,froyotech,1,113
@@ -219,42 +219,42 @@ log_id,map,blu_team,red_team,blu_win,round_duration
 2540333,snakewater,froyotech,Ascent,1,92
 2540333,snakewater,froyotech,Ascent,0,191
 2540333,snakewater,froyotech,Ascent,1,409
-2543458,metalworks,slinBros,The Microwave,0,213
-2543458,metalworks,slinBros,The Microwave,0,513
-2543458,metalworks,slinBros,The Microwave,0,457
-2543458,metalworks,slinBros,The Microwave,0,280
-2543494,process,slinBros,The Microwave,1,824
-2543494,process,slinBros,The Microwave,0,99
-2543494,process,slinBros,The Microwave,1,129
-2543494,process,slinBros,The Microwave,0,154
-2543494,process,slinBros,The Microwave,0,488
-2543525,snakewater,slinBros,The Microwave,1,152
-2543525,snakewater,slinBros,The Microwave,0,110
-2543525,snakewater,slinBros,The Microwave,1,249
-2543525,snakewater,slinBros,The Microwave,0,285
-2544419,process,slinBros,Team Avatar,0,442
-2544419,process,slinBros,Team Avatar,0,136
-2544419,process,slinBros,Team Avatar,1,184
-2544419,process,slinBros,Team Avatar,0,254
-2544419,process,slinBros,Team Avatar,1,330
-2544462,snakewater,slinBros,Team Avatar,1,250
-2544462,snakewater,slinBros,Team Avatar,1,89
-2544462,snakewater,slinBros,Team Avatar,1,480
-2544462,snakewater,slinBros,Team Avatar,0,112
-2544462,snakewater,slinBros,Team Avatar,1,164
-2544462,snakewater,slinBros,Team Avatar,0,401
-2544501,gullywash,Team Avatar,slinBros,0,452
-2544501,gullywash,Team Avatar,slinBros,0,812
-2544501,gullywash,Team Avatar,slinBros,0,117
-2544501,gullywash,Team Avatar,slinBros,0,85
-2544501,gullywash,Team Avatar,slinBros,0,83
-2544520,metalworks,Team Avatar,slinBros,1,202
-2544520,metalworks,Team Avatar,slinBros,0,100
-2544520,metalworks,Team Avatar,slinBros,0,253
-2544520,metalworks,Team Avatar,slinBros,1,199
-2544520,metalworks,Team Avatar,slinBros,1,119
-2544520,metalworks,Team Avatar,slinBros,1,183
-2544520,metalworks,Team Avatar,slinBros,1,192
+2543458,metalworks,dexter's lab,The Microwave,0,213
+2543458,metalworks,dexter's lab,The Microwave,0,513
+2543458,metalworks,dexter's lab,The Microwave,0,457
+2543458,metalworks,dexter's lab,The Microwave,0,280
+2543494,process,dexter's lab,The Microwave,1,824
+2543494,process,dexter's lab,The Microwave,0,99
+2543494,process,dexter's lab,The Microwave,1,129
+2543494,process,dexter's lab,The Microwave,0,154
+2543494,process,dexter's lab,The Microwave,0,488
+2543525,snakewater,dexter's lab,The Microwave,1,152
+2543525,snakewater,dexter's lab,The Microwave,0,110
+2543525,snakewater,dexter's lab,The Microwave,1,249
+2543525,snakewater,dexter's lab,The Microwave,0,285
+2544419,process,dexter's lab,Team Avatar,0,442
+2544419,process,dexter's lab,Team Avatar,0,136
+2544419,process,dexter's lab,Team Avatar,1,184
+2544419,process,dexter's lab,Team Avatar,0,254
+2544419,process,dexter's lab,Team Avatar,1,330
+2544462,snakewater,dexter's lab,Team Avatar,1,250
+2544462,snakewater,dexter's lab,Team Avatar,1,89
+2544462,snakewater,dexter's lab,Team Avatar,1,480
+2544462,snakewater,dexter's lab,Team Avatar,0,112
+2544462,snakewater,dexter's lab,Team Avatar,1,164
+2544462,snakewater,dexter's lab,Team Avatar,0,401
+2544501,gullywash,Team Avatar,dexter's lab,0,452
+2544501,gullywash,Team Avatar,dexter's lab,0,812
+2544501,gullywash,Team Avatar,dexter's lab,0,117
+2544501,gullywash,Team Avatar,dexter's lab,0,85
+2544501,gullywash,Team Avatar,dexter's lab,0,83
+2544520,metalworks,Team Avatar,dexter's lab,1,202
+2544520,metalworks,Team Avatar,dexter's lab,0,100
+2544520,metalworks,Team Avatar,dexter's lab,0,253
+2544520,metalworks,Team Avatar,dexter's lab,1,199
+2544520,metalworks,Team Avatar,dexter's lab,1,119
+2544520,metalworks,Team Avatar,dexter's lab,1,183
+2544520,metalworks,Team Avatar,dexter's lab,1,192
 2545403,process,froyotech,Ascent,0,530
 2545403,process,froyotech,Ascent,0,88
 2545403,process,froyotech,Ascent,0,81
@@ -368,51 +368,51 @@ log_id,map,blu_team,red_team,blu_win,round_duration
 2547400,process,froyotech,The Microwave,1,551
 2547400,process,froyotech,The Microwave,1,541
 2547400,process,froyotech,The Microwave,1,164
-2547406,process,slinBros,TBD,0,196
-2547406,process,slinBros,TBD,0,308
-2547406,process,slinBros,TBD,0,118
-2547406,process,slinBros,TBD,0,334
-2547406,process,slinBros,TBD,0,229
-2547439,snakewater,slinBros,TBD,0,126
-2547439,snakewater,slinBros,TBD,0,80
-2547439,snakewater,slinBros,TBD,1,396
-2547439,snakewater,slinBros,TBD,0,229
-2547439,snakewater,slinBros,TBD,0,130
-2547439,snakewater,slinBros,TBD,0,100
+2547406,process,dexter's lab,TBD,0,196
+2547406,process,dexter's lab,TBD,0,308
+2547406,process,dexter's lab,TBD,0,118
+2547406,process,dexter's lab,TBD,0,334
+2547406,process,dexter's lab,TBD,0,229
+2547439,snakewater,dexter's lab,TBD,0,126
+2547439,snakewater,dexter's lab,TBD,0,80
+2547439,snakewater,dexter's lab,TBD,1,396
+2547439,snakewater,dexter's lab,TBD,0,229
+2547439,snakewater,dexter's lab,TBD,0,130
+2547439,snakewater,dexter's lab,TBD,0,100
 2547449,gullywash,froyotech,The Microwave,1,148
 2547449,gullywash,froyotech,The Microwave,1,232
 2547449,gullywash,froyotech,The Microwave,1,289
 2547449,gullywash,froyotech,The Microwave,1,238
 2547449,gullywash,froyotech,The Microwave,1,303
-2547472,gullywash,slinBros,TBD,0,92
-2547472,gullywash,slinBros,TBD,0,340
-2547472,gullywash,slinBros,TBD,0,353
-2547472,gullywash,slinBros,TBD,0,156
-2547472,gullywash,slinBros,TBD,0,331
+2547472,gullywash,dexter's lab,TBD,0,92
+2547472,gullywash,dexter's lab,TBD,0,340
+2547472,gullywash,dexter's lab,TBD,0,353
+2547472,gullywash,dexter's lab,TBD,0,156
+2547472,gullywash,dexter's lab,TBD,0,331
 2547493,snakewater,froyotech,The Microwave,1,368
 2547493,snakewater,froyotech,The Microwave,1,375
 2547493,snakewater,froyotech,The Microwave,1,211
 2547493,snakewater,froyotech,The Microwave,1,103
 2547493,snakewater,froyotech,The Microwave,1,130
-2547521,metalworks,slinBros,TBD,1,152
+2547521,metalworks,dexter's lab,TBD,1,152
 2550447,sunshine,Ascent,froyotech,0,109
-2550450,process,slinBros,The Microwave,0,90
-2550450,process,slinBros,The Microwave,0,221
-2550450,process,slinBros,The Microwave,1,159
-2550450,process,slinBros,The Microwave,0,110
-2550450,process,slinBros,The Microwave,1,116
-2550450,process,slinBros,The Microwave,0,116
-2550450,process,slinBros,The Microwave,1,175
-2550450,process,slinBros,The Microwave,0,250
+2550450,process,dexter's lab,The Microwave,0,90
+2550450,process,dexter's lab,The Microwave,0,221
+2550450,process,dexter's lab,The Microwave,1,159
+2550450,process,dexter's lab,The Microwave,0,110
+2550450,process,dexter's lab,The Microwave,1,116
+2550450,process,dexter's lab,The Microwave,0,116
+2550450,process,dexter's lab,The Microwave,1,175
+2550450,process,dexter's lab,The Microwave,0,250
 2550484,sunshine,MyAnimeList,Team Avatar,1,141
 2550484,sunshine,MyAnimeList,Team Avatar,1,121
 2550484,sunshine,MyAnimeList,Team Avatar,1,108
 2550484,sunshine,MyAnimeList,Team Avatar,1,120
 2550484,sunshine,MyAnimeList,Team Avatar,1,1019
 2550496,sunshine,Ascent,froyotech,1,790
-2550500,snakewater,slinBros,The Microwave,0,579
-2550500,snakewater,slinBros,The Microwave,1,430
-2550500,snakewater,slinBros,The Microwave,0,192
+2550500,snakewater,dexter's lab,The Microwave,0,579
+2550500,snakewater,dexter's lab,The Microwave,1,430
+2550500,snakewater,dexter's lab,The Microwave,0,192
 2550514,process,MyAnimeList,Team Avatar,1,781
 2550514,process,MyAnimeList,Team Avatar,1,136
 2550514,process,MyAnimeList,Team Avatar,0,90
@@ -436,12 +436,12 @@ log_id,map,blu_team,red_team,blu_win,round_duration
 2550548,gullywash,froyotech,Ascent,0,264
 2550548,gullywash,froyotech,Ascent,1,492
 2550548,gullywash,froyotech,Ascent,0,229
-2550553,process,The Microwave,slinBros,0,360
-2550553,process,The Microwave,slinBros,1,190
-2550553,process,The Microwave,slinBros,1,78
-2550553,process,The Microwave,slinBros,0,128
-2550553,process,The Microwave,slinBros,0,364
-2550553,process,The Microwave,slinBros,0,580
+2550553,process,The Microwave,dexter's lab,0,360
+2550553,process,The Microwave,dexter's lab,1,190
+2550553,process,The Microwave,dexter's lab,1,78
+2550553,process,The Microwave,dexter's lab,0,128
+2550553,process,The Microwave,dexter's lab,0,364
+2550553,process,The Microwave,dexter's lab,0,580
 2550561,product,Team Avatar,TBD,1,376
 2550561,product,Team Avatar,TBD,1,354
 2550561,product,Team Avatar,TBD,0,340
@@ -449,22 +449,22 @@ log_id,map,blu_team,red_team,blu_win,round_duration
 2550561,product,Team Avatar,TBD,0,408
 2550561,product,Team Avatar,TBD,0,400
 2550561,product,Team Avatar,TBD,0,438
-2551442,process,slinBros,Ascent,0,209
-2551442,process,slinBros,Ascent,0,714
-2551442,process,slinBros,Ascent,0,294
-2551442,process,slinBros,Ascent,0,268
-2551442,process,slinBros,Ascent,0,67
+2551442,process,dexter's lab,Ascent,0,209
+2551442,process,dexter's lab,Ascent,0,714
+2551442,process,dexter's lab,Ascent,0,294
+2551442,process,dexter's lab,Ascent,0,268
+2551442,process,dexter's lab,Ascent,0,67
 2551474,process,The Microwave,TBD,1,99
 2551474,process,The Microwave,TBD,0,194
 2551474,process,The Microwave,TBD,0,922
 2551474,process,The Microwave,TBD,1,299
 2551474,process,The Microwave,TBD,1,125
-2551484,snakewater,Ascent,slinBros,1,518
-2551484,snakewater,Ascent,slinBros,1,194
-2551484,snakewater,Ascent,slinBros,1,110
-2551484,snakewater,Ascent,slinBros,1,116
-2551484,snakewater,Ascent,slinBros,0,192
-2551484,snakewater,Ascent,slinBros,1,127
+2551484,snakewater,Ascent,dexter's lab,1,518
+2551484,snakewater,Ascent,dexter's lab,1,194
+2551484,snakewater,Ascent,dexter's lab,1,110
+2551484,snakewater,Ascent,dexter's lab,1,116
+2551484,snakewater,Ascent,dexter's lab,0,192
+2551484,snakewater,Ascent,dexter's lab,1,127
 2551519,metalworks,The Microwave,TBD,0,143
 2551519,metalworks,The Microwave,TBD,0,337
 2551519,metalworks,The Microwave,TBD,0,400
@@ -481,9 +481,9 @@ log_id,map,blu_team,red_team,blu_win,round_duration
 2551571,snakewater,The Microwave,TBD,0,148
 2551571,snakewater,The Microwave,TBD,0,409
 2551571,snakewater,The Microwave,TBD,1,348
-2552435,process,slinBros,Team Avatar,1,178
-2552435,process,slinBros,Team Avatar,0,868
-2552435,process,slinBros,Team Avatar,0,730
+2552435,process,dexter's lab,Team Avatar,1,178
+2552435,process,dexter's lab,Team Avatar,0,868
+2552435,process,dexter's lab,Team Avatar,0,730
 2552436,sunshine,Ascent,froyotech,0,758
 2552436,sunshine,Ascent,froyotech,1,105
 2552436,sunshine,Ascent,froyotech,1,109
@@ -504,20 +504,20 @@ log_id,map,blu_team,red_team,blu_win,round_duration
 2552485,process,The Microwave,Ban Daffodil,0,159
 2552485,process,The Microwave,Ban Daffodil,1,495
 2552485,process,The Microwave,Ban Daffodil,1,103
-2552495,metalworks,slinBros,Team Avatar,1,497
-2552495,metalworks,slinBros,Team Avatar,1,653
-2552495,metalworks,slinBros,Team Avatar,0,97
-2552495,metalworks,slinBros,Team Avatar,0,468
+2552495,metalworks,dexter's lab,Team Avatar,1,497
+2552495,metalworks,dexter's lab,Team Avatar,1,653
+2552495,metalworks,dexter's lab,Team Avatar,0,97
+2552495,metalworks,dexter's lab,Team Avatar,0,468
 2552520,snakewater,MyAnimeList,TBD,0,604
 2552520,snakewater,MyAnimeList,TBD,0,115
 2552520,snakewater,MyAnimeList,TBD,0,278
 2552520,snakewater,MyAnimeList,TBD,0,101
 2552520,snakewater,MyAnimeList,TBD,1,623
-2552530,product,slinBros,Team Avatar,0,223
-2552530,product,slinBros,Team Avatar,1,369
-2552530,product,slinBros,Team Avatar,0,268
-2552530,product,slinBros,Team Avatar,0,417
-2552530,product,slinBros,Team Avatar,0,354
+2552530,product,dexter's lab,Team Avatar,0,223
+2552530,product,dexter's lab,Team Avatar,1,369
+2552530,product,dexter's lab,Team Avatar,0,268
+2552530,product,dexter's lab,Team Avatar,0,417
+2552530,product,dexter's lab,Team Avatar,0,354
 2552534,metalworks,Ban Daffodil,The Microwave,0,269
 2552534,metalworks,Ban Daffodil,The Microwave,0,214
 2552534,metalworks,Ban Daffodil,The Microwave,0,509
@@ -551,14 +551,6 @@ log_id,map,blu_team,red_team,blu_win,round_duration
 2553418,snakewater,froyotech,MyAnimeList,0,210
 2553418,snakewater,froyotech,MyAnimeList,1,153
 2553418,snakewater,froyotech,MyAnimeList,1,124
-2553436,process,Ban Daffodil,slinBros,1,75
-2553436,process,Ban Daffodil,slinBros,1,175
-2553436,process,Ban Daffodil,slinBros,0,91
-2553436,process,Ban Daffodil,slinBros,0,532
-2553436,process,Ban Daffodil,slinBros,0,294
-2553436,process,Ban Daffodil,slinBros,0,288
-2553436,process,Ban Daffodil,slinBros,1,105
-2553436,process,Ban Daffodil,slinBros,0,84
 2553443,sunshine,Team Avatar,The Microwave,0,81
 2553443,sunshine,Team Avatar,The Microwave,0,87
 2553443,sunshine,Team Avatar,The Microwave,0,345
@@ -584,12 +576,12 @@ log_id,map,blu_team,red_team,blu_win,round_duration
 2553507,product,Team Avatar,The Microwave,1,408
 2553507,product,Team Avatar,The Microwave,0,357
 2553507,product,Team Avatar,The Microwave,0,319
-2553526,gullywash,slinBros,Ban Daffodil,0,619
-2553526,gullywash,slinBros,Ban Daffodil,0,193
-2553526,gullywash,slinBros,Ban Daffodil,1,295
-2553526,gullywash,slinBros,Ban Daffodil,0,80
-2553526,gullywash,slinBros,Ban Daffodil,1,170
-2553526,gullywash,slinBros,Ban Daffodil,1,145
+2553526,gullywash,dexter's lab,Ban Daffodil,0,619
+2553526,gullywash,dexter's lab,Ban Daffodil,0,193
+2553526,gullywash,dexter's lab,Ban Daffodil,1,295
+2553526,gullywash,dexter's lab,Ban Daffodil,0,80
+2553526,gullywash,dexter's lab,Ban Daffodil,1,170
+2553526,gullywash,dexter's lab,Ban Daffodil,1,145
 2553547,metalworks,froyotech,MyAnimeList,1,438
 2553547,metalworks,froyotech,MyAnimeList,1,102
 2553547,metalworks,froyotech,MyAnimeList,1,94
@@ -606,13 +598,13 @@ log_id,map,blu_team,red_team,blu_win,round_duration
 2553557,snakewater,Ascent,TBD,1,188
 2553557,snakewater,Ascent,TBD,1,222
 2553557,snakewater,Ascent,TBD,0,478
-2553563,sunshine,slinBros,Ban Daffodil,1,245
-2553563,sunshine,slinBros,Ban Daffodil,1,590
-2553563,sunshine,slinBros,Ban Daffodil,0,99
-2553563,sunshine,slinBros,Ban Daffodil,0,71
-2553563,sunshine,slinBros,Ban Daffodil,1,240
-2553563,sunshine,slinBros,Ban Daffodil,1,91
-2553563,sunshine,slinBros,Ban Daffodil,1,190
+2553563,sunshine,dexter's lab,Ban Daffodil,1,245
+2553563,sunshine,dexter's lab,Ban Daffodil,1,590
+2553563,sunshine,dexter's lab,Ban Daffodil,0,99
+2553563,sunshine,dexter's lab,Ban Daffodil,0,71
+2553563,sunshine,dexter's lab,Ban Daffodil,1,240
+2553563,sunshine,dexter's lab,Ban Daffodil,1,91
+2553563,sunshine,dexter's lab,Ban Daffodil,1,190
 2553576,villa,MyAnimeList,froyotech,0,514
 2553576,villa,MyAnimeList,froyotech,0,295
 2553576,villa,MyAnimeList,froyotech,0,120
@@ -622,22 +614,22 @@ log_id,map,blu_team,red_team,blu_win,round_duration
 2553582,process,Ascent,TBD,0,443
 2553582,process,Ascent,TBD,1,352
 2553582,process,Ascent,TBD,0,394
-2554457,snakewater,slinBros,TBD,0,95
-2554457,snakewater,slinBros,TBD,1,305
-2554457,snakewater,slinBros,TBD,0,131
-2554457,snakewater,slinBros,TBD,1,115
-2554457,snakewater,slinBros,TBD,1,279
-2554457,snakewater,slinBros,TBD,0,377
-2554457,snakewater,slinBros,TBD,0,289
+2554457,snakewater,dexter's lab,TBD,0,95
+2554457,snakewater,dexter's lab,TBD,1,305
+2554457,snakewater,dexter's lab,TBD,0,131
+2554457,snakewater,dexter's lab,TBD,1,115
+2554457,snakewater,dexter's lab,TBD,1,279
+2554457,snakewater,dexter's lab,TBD,0,377
+2554457,snakewater,dexter's lab,TBD,0,289
 2554486,snakewater,Ascent,The Microwave,1,134
 2554486,snakewater,Ascent,The Microwave,0,1007
 2554486,snakewater,Ascent,The Microwave,1,511
 2554486,snakewater,Ascent,The Microwave,1,130
-2554519,process,slinBros,TBD,1,273
-2554519,process,slinBros,TBD,1,105
-2554519,process,slinBros,TBD,0,117
-2554519,process,slinBros,TBD,0,304
-2554519,process,slinBros,TBD,0,221
+2554519,process,dexter's lab,TBD,1,273
+2554519,process,dexter's lab,TBD,1,105
+2554519,process,dexter's lab,TBD,0,117
+2554519,process,dexter's lab,TBD,0,304
+2554519,process,dexter's lab,TBD,0,221
 2554547,clearcut,Ascent,The Microwave,1,224
 2554547,clearcut,Ascent,The Microwave,1,221
 2554547,clearcut,Ascent,The Microwave,1,254
@@ -647,12 +639,12 @@ log_id,map,blu_team,red_team,blu_win,round_duration
 2554573,metalworks,Ascent,The Microwave,1,313
 2554573,metalworks,Ascent,The Microwave,1,306
 2554573,metalworks,Ascent,The Microwave,1,148
-2554579,metalworks,slinBros,TBD,0,101
-2554579,metalworks,slinBros,TBD,0,141
-2554579,metalworks,slinBros,TBD,0,280
-2554579,metalworks,slinBros,TBD,0,466
-2554579,metalworks,slinBros,TBD,1,301
-2554579,metalworks,slinBros,TBD,0,94
+2554579,metalworks,dexter's lab,TBD,0,101
+2554579,metalworks,dexter's lab,TBD,0,141
+2554579,metalworks,dexter's lab,TBD,0,280
+2554579,metalworks,dexter's lab,TBD,0,466
+2554579,metalworks,dexter's lab,TBD,1,301
+2554579,metalworks,dexter's lab,TBD,0,94
 2554609,gullywash,Ascent,The Microwave,1,164
 2554609,gullywash,Ascent,The Microwave,1,83
 2554609,gullywash,Ascent,The Microwave,1,281
@@ -664,21 +656,21 @@ log_id,map,blu_team,red_team,blu_win,round_duration
 2557492,snakewater,Ascent,froyotech,0,109
 2557492,snakewater,Ascent,froyotech,0,232
 2557492,snakewater,Ascent,froyotech,1,549
-2557501,process,The Microwave,slinBros,1,217
-2557501,process,The Microwave,slinBros,1,170
+2557501,process,The Microwave,dexter's lab,1,217
+2557501,process,The Microwave,dexter's lab,1,170
 2557526,process,MyAnimeList,Ban Daffodil,0,114
 2557526,process,MyAnimeList,Ban Daffodil,1,106
 2557526,process,MyAnimeList,Ban Daffodil,1,167
 2557526,process,MyAnimeList,Ban Daffodil,1,201
 2557526,process,MyAnimeList,Ban Daffodil,1,290
 2557526,process,MyAnimeList,Ban Daffodil,1,268
-2557535,process,The Microwave,slinBros,1,170
-2557535,process,The Microwave,slinBros,0,222
-2557535,process,The Microwave,slinBros,1,61
-2557535,process,The Microwave,slinBros,1,95
-2557535,process,The Microwave,slinBros,1,178
-2557535,process,The Microwave,slinBros,0,174
-2557535,process,The Microwave,slinBros,1,414
+2557535,process,The Microwave,dexter's lab,1,170
+2557535,process,The Microwave,dexter's lab,0,222
+2557535,process,The Microwave,dexter's lab,1,61
+2557535,process,The Microwave,dexter's lab,1,95
+2557535,process,The Microwave,dexter's lab,1,178
+2557535,process,The Microwave,dexter's lab,0,174
+2557535,process,The Microwave,dexter's lab,1,414
 2557558,process,TBD,Team Avatar,0,202
 2557558,process,TBD,Team Avatar,1,376
 2557558,process,TBD,Team Avatar,1,891
@@ -697,14 +689,14 @@ log_id,map,blu_team,red_team,blu_win,round_duration
 2557572,gullywash,MyAnimeList,Ban Daffodil,1,161
 2557572,gullywash,MyAnimeList,Ban Daffodil,1,316
 2557572,gullywash,MyAnimeList,Ban Daffodil,1,108
-2557577,snakewater,The Microwave,slinBros,1,350
-2557577,snakewater,The Microwave,slinBros,0,115
-2557585,snakewater,The Microwave,slinBros,1,100
-2557585,snakewater,The Microwave,slinBros,1,225
-2557585,snakewater,The Microwave,slinBros,1,208
-2557585,snakewater,The Microwave,slinBros,0,321
-2557585,snakewater,The Microwave,slinBros,1,140
-2557585,snakewater,The Microwave,slinBros,1,155
+2557577,snakewater,The Microwave,dexter's lab,1,350
+2557577,snakewater,The Microwave,dexter's lab,0,115
+2557585,snakewater,The Microwave,dexter's lab,1,100
+2557585,snakewater,The Microwave,dexter's lab,1,225
+2557585,snakewater,The Microwave,dexter's lab,1,208
+2557585,snakewater,The Microwave,dexter's lab,0,321
+2557585,snakewater,The Microwave,dexter's lab,1,140
+2557585,snakewater,The Microwave,dexter's lab,1,155
 2557586,snakewater,Team Avatar,TBD,0,198
 2557586,snakewater,Team Avatar,TBD,0,114
 2557586,snakewater,Team Avatar,TBD,0,265
@@ -734,9 +726,9 @@ log_id,map,blu_team,red_team,blu_win,round_duration
 2557622,gullywash,froyotech,Ascent,1,211
 2557622,gullywash,froyotech,Ascent,1,81
 2557622,gullywash,froyotech,Ascent,1,141
-2557628,gullywash,slinBros,The Microwave,0,1025
-2557628,gullywash,slinBros,The Microwave,0,95
-2557628,gullywash,slinBros,The Microwave,0,665
+2557628,gullywash,dexter's lab,The Microwave,0,1025
+2557628,gullywash,dexter's lab,The Microwave,0,95
+2557628,gullywash,dexter's lab,The Microwave,0,665
 2557636,gullywash,Team Avatar,TBD,0,107
 2557636,gullywash,Team Avatar,TBD,0,438
 2557636,gullywash,Team Avatar,TBD,0,99
@@ -750,13 +742,13 @@ log_id,map,blu_team,red_team,blu_win,round_duration
 2558460,process,Ascent,froyotech,1,67
 2558460,process,Ascent,froyotech,1,128
 2558460,process,Ascent,froyotech,0,103
-2558461,sunshine,slinBros,Team Avatar,0,249
-2558461,sunshine,slinBros,Team Avatar,1,155
-2558461,sunshine,slinBros,Team Avatar,1,153
-2558461,sunshine,slinBros,Team Avatar,0,268
-2558461,sunshine,slinBros,Team Avatar,1,265
-2558461,sunshine,slinBros,Team Avatar,0,391
-2558461,sunshine,slinBros,Team Avatar,1,141
+2558461,sunshine,dexter's lab,Team Avatar,0,249
+2558461,sunshine,dexter's lab,Team Avatar,1,155
+2558461,sunshine,dexter's lab,Team Avatar,1,153
+2558461,sunshine,dexter's lab,Team Avatar,0,268
+2558461,sunshine,dexter's lab,Team Avatar,1,265
+2558461,sunshine,dexter's lab,Team Avatar,0,391
+2558461,sunshine,dexter's lab,Team Avatar,1,141
 2558477,metalworks,The Microwave,TBD,0,245
 2558477,metalworks,The Microwave,TBD,0,164
 2558477,metalworks,The Microwave,TBD,0,180
@@ -767,12 +759,12 @@ log_id,map,blu_team,red_team,blu_win,round_duration
 2558522,snakewater,The Microwave,TBD,0,196
 2558522,snakewater,The Microwave,TBD,0,348
 2558522,snakewater,The Microwave,TBD,0,379
-2558525,process,slinBros,Team Avatar,1,139
-2558525,process,slinBros,Team Avatar,0,288
-2558525,process,slinBros,Team Avatar,0,103
-2558525,process,slinBros,Team Avatar,1,428
-2558525,process,slinBros,Team Avatar,1,134
-2558525,process,slinBros,Team Avatar,1,671
+2558525,process,dexter's lab,Team Avatar,1,139
+2558525,process,dexter's lab,Team Avatar,0,288
+2558525,process,dexter's lab,Team Avatar,0,103
+2558525,process,dexter's lab,Team Avatar,1,428
+2558525,process,dexter's lab,Team Avatar,1,134
+2558525,process,dexter's lab,Team Avatar,1,671
 2558543,metalworks,froyotech,Ascent,1,833
 2558543,metalworks,froyotech,Ascent,0,87
 2558543,metalworks,froyotech,Ascent,0,199
@@ -783,12 +775,12 @@ log_id,map,blu_team,red_team,blu_win,round_duration
 2558562,gullywash,The Microwave,TBD,1,756
 2558562,gullywash,The Microwave,TBD,1,58
 2558562,gullywash,The Microwave,TBD,1,388
-2558575,metalworks,Team Avatar,slinBros,1,105
-2558575,metalworks,Team Avatar,slinBros,0,744
-2558575,metalworks,Team Avatar,slinBros,0,131
-2558575,metalworks,Team Avatar,slinBros,0,120
-2558575,metalworks,Team Avatar,slinBros,1,359
-2558575,metalworks,Team Avatar,slinBros,0,288
+2558575,metalworks,Team Avatar,dexter's lab,1,105
+2558575,metalworks,Team Avatar,dexter's lab,0,744
+2558575,metalworks,Team Avatar,dexter's lab,0,131
+2558575,metalworks,Team Avatar,dexter's lab,0,120
+2558575,metalworks,Team Avatar,dexter's lab,1,359
+2558575,metalworks,Team Avatar,dexter's lab,0,288
 2558579,product,Ascent,froyotech,0,381
 2558579,product,Ascent,froyotech,0,288
 2558579,product,Ascent,froyotech,0,270
@@ -797,3 +789,125 @@ log_id,map,blu_team,red_team,blu_win,round_duration
 2558610,sunshine,Ascent,froyotech,1,756
 2558610,sunshine,Ascent,froyotech,0,185
 2558610,sunshine,Ascent,froyotech,1,98
+2559459,snakewater,froyotech,The Microwave,0,118
+2559459,snakewater,froyotech,The Microwave,0,188
+2559459,snakewater,froyotech,The Microwave,0,182
+2559459,snakewater,froyotech,The Microwave,1,288
+2559459,snakewater,froyotech,The Microwave,1,110
+2559459,snakewater,froyotech,The Microwave,1,294
+2559459,snakewater,froyotech,The Microwave,1,513
+2559483,gullywash,Ascent,Team Avatar,1,116
+2559483,gullywash,Ascent,Team Avatar,1,297
+2559483,gullywash,Ascent,Team Avatar,1,85
+2559483,gullywash,Ascent,Team Avatar,1,193
+2559483,gullywash,Ascent,Team Avatar,1,295
+2559530,sunshine,froyotech,The Microwave,0,330
+2559530,sunshine,froyotech,The Microwave,1,153
+2559530,sunshine,froyotech,The Microwave,1,121
+2559530,sunshine,froyotech,The Microwave,1,211
+2559530,sunshine,froyotech,The Microwave,1,98
+2559530,sunshine,froyotech,The Microwave,1,90
+2559531,gullywash,dexter's lab,Ban Daffodil,0,603
+2559531,gullywash,dexter's lab,Ban Daffodil,0,103
+2559531,gullywash,dexter's lab,Ban Daffodil,1,380
+2559531,gullywash,dexter's lab,Ban Daffodil,0,140
+2559531,gullywash,dexter's lab,Ban Daffodil,1,262
+2559541,process,Ascent,Team Avatar,1,804
+2559541,process,Ascent,Team Avatar,1,123
+2559541,process,Ascent,Team Avatar,0,102
+2559541,process,Ascent,Team Avatar,1,161
+2559541,process,Ascent,Team Avatar,1,493
+2559569,process,The Microwave,froyotech,0,285
+2559569,process,The Microwave,froyotech,0,242
+2559569,process,The Microwave,froyotech,0,284
+2559569,process,The Microwave,froyotech,1,114
+2559569,process,The Microwave,froyotech,1,305
+2559569,process,The Microwave,froyotech,0,544
+2559581,product,dexter's lab,Ban Daffodil,1,263
+2559581,product,dexter's lab,Ban Daffodil,1,351
+2559581,product,dexter's lab,Ban Daffodil,1,342
+2559581,product,dexter's lab,Ban Daffodil,0,409
+2559581,product,dexter's lab,Ban Daffodil,1,315
+2559592,product,Ascent,Team Avatar,0,397
+2559592,product,Ascent,Team Avatar,1,397
+2559592,product,Ascent,Team Avatar,1,360
+2559592,product,Ascent,Team Avatar,1,337
+2559592,product,Ascent,Team Avatar,1,269
+2559613,product,The Microwave,froyotech,0,216
+2559613,product,The Microwave,froyotech,0,366
+2559613,product,The Microwave,froyotech,0,428
+2559613,product,The Microwave,froyotech,1,388
+2559613,product,The Microwave,froyotech,0,365
+2559614,snakewater,dexter's lab,Ban Daffodil,1,107
+2559614,snakewater,dexter's lab,Ban Daffodil,0,678
+2559614,snakewater,dexter's lab,Ban Daffodil,1,100
+2559614,snakewater,dexter's lab,Ban Daffodil,1,381
+2559614,snakewater,dexter's lab,Ban Daffodil,0,117
+2560444,gullywash,MyAnimeList,froyotech,1,119
+2560444,gullywash,MyAnimeList,froyotech,1,104
+2560444,gullywash,MyAnimeList,froyotech,1,444
+2560444,gullywash,MyAnimeList,froyotech,1,651
+2560444,gullywash,MyAnimeList,froyotech,1,95
+2560445,sunshine,Team Avatar,The Microwave,1,110
+2560445,sunshine,Team Avatar,The Microwave,1,329
+2560445,sunshine,Team Avatar,The Microwave,1,95
+2560445,sunshine,Team Avatar,The Microwave,1,263
+2560445,sunshine,Team Avatar,The Microwave,1,135
+2560464,clearcut,dexter's lab,Ban Daffodil,1,342
+2560464,clearcut,dexter's lab,Ban Daffodil,1,419
+2560464,clearcut,dexter's lab,Ban Daffodil,0,431
+2560464,clearcut,dexter's lab,Ban Daffodil,1,339
+2560464,clearcut,dexter's lab,Ban Daffodil,1,306
+2560488,sunshine,Team Avatar,The Microwave,1,396
+2560488,sunshine,Team Avatar,The Microwave,1,766
+2560488,sunshine,Team Avatar,The Microwave,0,118
+2560488,sunshine,Team Avatar,The Microwave,0,464
+2560491,snakewater,Ascent,TBD,1,257
+2560491,snakewater,Ascent,TBD,1,120
+2560491,snakewater,Ascent,TBD,1,196
+2560491,snakewater,Ascent,TBD,1,250
+2560491,snakewater,Ascent,TBD,0,567
+2560491,snakewater,Ascent,TBD,0,109
+2560491,snakewater,Ascent,TBD,1,75
+2560505,snakewater,MyAnimeList,froyotech,0,498
+2560505,snakewater,MyAnimeList,froyotech,0,281
+2560505,snakewater,MyAnimeList,froyotech,1,125
+2560505,snakewater,MyAnimeList,froyotech,0,110
+2560505,snakewater,MyAnimeList,froyotech,0,249
+2560505,snakewater,MyAnimeList,froyotech,0,289
+2560525,process,Ascent,TBD,1,532
+2560525,process,Ascent,TBD,1,96
+2560525,process,Ascent,TBD,1,246
+2560525,process,Ascent,TBD,1,74
+2560525,process,Ascent,TBD,1,223
+2560533,villa,dexter's lab,Ban Daffodil,1,152
+2560533,villa,dexter's lab,Ban Daffodil,1,79
+2560533,villa,dexter's lab,Ban Daffodil,1,136
+2560533,villa,dexter's lab,Ban Daffodil,0,118
+2560533,villa,dexter's lab,Ban Daffodil,1,123
+2560533,villa,dexter's lab,Ban Daffodil,1,93
+2560539,sunshine,MyAnimeList,froyotech,1,93
+2560539,sunshine,MyAnimeList,froyotech,1,187
+2560539,sunshine,MyAnimeList,froyotech,1,337
+2560539,sunshine,MyAnimeList,froyotech,1,127
+2560539,sunshine,MyAnimeList,froyotech,0,156
+2560539,sunshine,MyAnimeList,froyotech,0,156
+2560539,sunshine,MyAnimeList,froyotech,1,170
+2560548,snakewater,The Microwave,Team Avatar,1,247
+2560548,snakewater,The Microwave,Team Avatar,0,147
+2560548,snakewater,The Microwave,Team Avatar,0,506
+2560548,snakewater,The Microwave,Team Avatar,0,416
+2560548,snakewater,The Microwave,Team Avatar,0,220
+2560548,snakewater,The Microwave,Team Avatar,0,104
+2560560,process,dexter's lab,Ban Daffodil,1,413
+2560560,process,dexter's lab,Ban Daffodil,1,151
+2560560,process,dexter's lab,Ban Daffodil,1,123
+2560560,process,dexter's lab,Ban Daffodil,1,152
+2560560,process,dexter's lab,Ban Daffodil,1,323
+2560564,process,MyAnimeList,froyotech,1,119
+2560564,process,MyAnimeList,froyotech,1,108
+2560564,process,MyAnimeList,froyotech,1,272
+2560564,process,MyAnimeList,froyotech,0,183
+2560564,process,MyAnimeList,froyotech,0,80
+2560564,process,MyAnimeList,froyotech,1,401
+2560564,process,MyAnimeList,froyotech,1,402

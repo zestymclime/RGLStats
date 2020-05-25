@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import cfscrape
 import requests
 
-def scrapeteams(division):
+def scrapeteams(divisions):
     """
     Scrapes urls for teams from RGL website, returns as an array of team names.
     Requires division name as input (Invite, Advanced, etc)
@@ -13,29 +13,31 @@ def scrapeteams(division):
     """
     seasonid='72' #id for RGL season 3, changes each season
     leagueid='40' #id for Trad. Sixes, change if you want to do this for prolander or something
-    divids={'invite':'404','advanced':'405','main':'406','intermediate':'407','amateur':'410','newcomer':'411'} #Ids for each division
-    try:
+    divids={'invite':'404','div1':'405','div2':'430','main':'406','intermediate':'407','amateur':'410','newcomer':'411'} #Ids for each division
+    links = [] #make empty list of links
+    teamnames=np.array([])
+    for division in divisions:
+        try:
+            url='https://rgl.gg/Public/LeagueTable.aspx?g='+divids[division.lower().replace(" ","")]+'&s='+seasonid+'&r='+leagueid #URL for each division
+            scraper = cfscrape.create_scraper()  # returns a CloudflareScraper instance
+            # Or: scraper = cfscrape.CloudflareScraper()  # CloudflareScraper inherits from requests.Session
+            html=scraper.get(url).content #Scrape html from RGL website
+            teamnames=np.append(teamnames,pd.read_html(html)[-1]['Team Name'].values) #grab team names from table in html
+            soup = BeautifulSoup(html, 'html.parser') #Use beautifulsoup to grab links from table in html
+            table = soup.findAll('table')[-1] #find tables
 
-        url='https://rgl.gg/Public/LeagueTable.aspx?g='+divids[division.lower()]+'&s='+seasonid+'&r='+leagueid #URL for each division
-        scraper = cfscrape.create_scraper()  # returns a CloudflareScraper instance
-        # Or: scraper = cfscrape.CloudflareScraper()  # CloudflareScraper inherits from requests.Session
-        html=scraper.get(url).content #Scrape html from RGL website
-        teamnames=pd.read_html(html)[1]['Team Name'].values #grab team names from table in html
-        soup = BeautifulSoup(html, 'html.parser') #Use beautifulsoup to grab links from table in html
-        table = soup.findAll('table')[1] #find tables
 
-        links = [] #make empty list of links
-        for tr in table.findAll("tr"): #search through table to grab links
-            trs = tr.findAll("td")
-            for each in trs:
-                try:
-                    link = each.find('a')['href']
-                    links.append(link) #append to list of links
-                except:
-                    pass
-    except KeyError: #Tell people if they didn't put a correct division name in.
-        print('Error, division name needs to be one of: Invite,Advanced,Main,Intermediate,Amateur,Newcomer')
-        return
+            for tr in table.findAll("tr"): #search through table to grab links
+                trs = tr.findAll("td")
+                for each in trs:
+                    try:
+                        link = each.find('a')['href']
+                        links.append(link) #append to list of links
+                    except:
+                        pass
+        except KeyError: #Tell people if they didn't put a correct division name in.
+            print('Error, division name needs to be one of: Invite,Advanced,Main,Intermediate,Amateur,Newcomer')
+            return
     return {teamnames[i]:'https://rgl.gg/Public/teamb'+links[i][4:] for i in range(len(teamnames))} #return the dictionary of team names
 
 def scrapeplayers(teamdict):
@@ -158,10 +160,11 @@ def check_if_scrims(logids,usteamids):
     return(points_table)
 
 def main():
-    print('Enter Division (Invite,Advanced,Main,Intermediate,Amateur,Newcomer)')
-    division=input()
+    print('Enter Division Names separated by commas (Invite,div 1,div 2,Intermediate,Amateur,Newcomer)')
+    divlist=input()
+    divisions=tuple(divlist.split(','))
     print('Scraping Player IDs from RGL.gg')
-    teamdict=scrapeteams(division)
+    teamdict=scrapeteams(divisions)
     teamplayerids=scrapeplayers(teamdict)
     print('Enter a log id for the start of when you want to grab team logs.')
     print('RGL Season 2 Ended on April 8th. The first logid of April 9th was 2518452')
