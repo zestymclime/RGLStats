@@ -32,7 +32,8 @@ def scrapeteams(divisions):
                 for each in trs:
                     try:
                         link = each.find('a')['href']
-                        links.append(link) #append to list of links
+                        if link!='#':
+                            links.append(link) #append to list of links
                     except:
                         pass
         except KeyError: #Tell people if they didn't put a correct division name in.
@@ -48,7 +49,7 @@ def scrapeplayers(teamdict):
     for key in teamdict: #Loop through teams
         scraper = cfscrape.create_scraper()  # returns a CloudflareScraper instance
         # Or: scraper = cfscrape.CloudflareScraper()  # CloudflareScraper inherits from requests.Session
-        url=teamdict[key] #Get url for that team
+        url=teamdict[key] #Get url for that teamwd
         html=scraper.get(url).content #grab html from url
         player_ids=list(pd.read_html(html)[0].SteamId.astype(str).values) #get list of steamids
         players_list.append(player_ids) #append player ids to the list of team player ids
@@ -72,7 +73,7 @@ def get_player_logs(player_id,start_season_log):
     loglist_json=loglist.json()
     logs=loglist_json['logs']
     logids=np.array([int(log['id']) for log in logs])
-    return(logids[logids>start_season_log]) #return only logs newer than the initial id.
+    return(logids[logids>int(start_season_log)]) #return only logs newer than the initial id.
 
 def get_log_ids(teamplayerids,start_season_log):
     """
@@ -130,7 +131,7 @@ def generate_round_data(logid,usteamids):
     winner=np.array([rounds['winner'] for rounds in log['rounds']]) #who won the round?
     blu_score=np.array([1 if win=='Blue' else 0 for win in winner]).astype(int) #binary, 1 for Blue winning, 0 for red winning
     duration=np.array([rounds['length'] for rounds in log['rounds']]) #Duration of each round
-
+    totalduration=sum(duration)
     #check to see if the map went to timelimit. If so, ignore last round. This is so the round durations arent affected by truncated rounds.
     if (np.sum(blu_score)==log['teams']['Blue']['score'])&(np.sum(1-blu_score)==log['teams']['Red']['score']):
         pass
@@ -139,14 +140,14 @@ def generate_round_data(logid,usteamids):
         duration=duration[:-1]
         blu_score=blu_score[:-1]
     #return an array of [logid,map name,blue team name, red team name, blu_score, round duration] for each round
-    return(np.array([np.full(len(winner),logid),np.full(len(winner),mapname),np.full(len(winner),blu_team),np.full(len(winner),red_team),blu_score,duration]).T)
+    return(np.array([np.full(len(winner),logid),np.full(len(winner),mapname),np.full(len(winner),blu_team),np.full(len(winner),red_team),blu_score,duration,np.full(len(winner),totalduration)]).T)
 
 def check_if_scrims(logids,usteamids):
     """
     Checks whether logs in our list of possible scrim logs have players on the correct teams.
     For any log with >=8 players from a given division, checks to see if there are >=4 on the same team.
     """
-    points_table=np.empty(shape=(0,6)) #create an empty table for points
+    points_table=np.empty(shape=(0,7)) #create an empty table for points
     for i in range(len(logids)): #loop through logids
         try:
             points_log=generate_round_data(logids[i],usteamids) #generate data
@@ -166,9 +167,15 @@ def main():
     print('Scraping Player IDs from RGL.gg')
     teamdict=scrapeteams(divisions)
     teamplayerids=scrapeplayers(teamdict)
-    print('Enter a log id for the start of when you want to grab team logs.')
+    print('Enter a log id for the start of when you want to grab team logs. Or type update to update an old csv with new logs.')
     print('RGL Season 2 Ended on April 8th. The first logid of April 9th was 2518452')
-    start_season_log=int(input())
+    start_season_log=input().lower()
+    filename=None
+    if start_season_log=='update':
+        print('Enter name of data file (no file extension)')
+        filename=input()
+        old_data=pd.read_csv(filename+'.csv')
+        start_season_log=max(old_data['log_id'])
     print('Grabbing List of Logs with 8 or more players from logs.tf')
     print('This may take a few minutes')
     logids_trimmed=get_log_ids(teamplayerids,start_season_log)
@@ -176,9 +183,12 @@ def main():
     print('Checking whether each log is a scrim. This may take a few minutes')
     points_table=check_if_scrims(logids_trimmed,usteamids)
     points_table=points_table[points_table[:,5].astype(float)>0]
-    points_data=pd.DataFrame(points_table,columns=['log_id','map','blu_team','red_team','blu_win','round_duration'])
-    print('Please enter a filename to save data to')
-    filename=input()
+    points_data=pd.DataFrame(points_table,columns=['log_id','map','blu_team','red_team','blu_win','round_duration','total_duration'])
+    if filename==None:
+        print('Please enter a filename to save data to')
+        filename=input()
+    else:
+        points_data=pd.concat([old_data,points_data])
     points_data.to_csv(filename+'.csv',index=False)
     print('Done, file saved to '+filename+'.csv')
 main()
